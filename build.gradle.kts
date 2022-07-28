@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.lucene:lucene-core:9.2.0")
+    implementation("io.insert-koin:koin-core-jvm:3.2.0")
     testImplementation(kotlin("test"))
 }
 
